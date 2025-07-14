@@ -4,16 +4,16 @@ class mainPage extends HTMLElement{
         <div id="fondo">
         <div class="flex pt-6">
 
-        <section class="pl-7 pr-20">
+        <section class="pl-7 pr-6">
             <img src="images/Uber_logo_2018.png" alt="" width="110px">
         </section>
 
         <section class="pl-20 pb-1">
-            <button class="bg-white pt-2 pb-2 pl-2 pr-3 rounded-full font-bold text-lg flex text-stone-800"><img class="w-8 rounded-full pr-1" src="images/español.jpg" alt="">Es</button>
+            <button class="hover:bg-gray-300 bg-white pt-2 pb-2 pl-2 pr-3 rounded-full font-bold text-lg flex text-stone-800"><img class="w-8 rounded-full pr-1" src="images/español.jpg" alt="">Es</button>
         </section>
             
         <section class="pl-4 pb-1 flex justify-center">
-            <button class="bg-white pt-2 pb-2 pl-3 pr-4 rounded-full font-bold text-lg flex text-stone-800"><img class="h-6 pr-2 mt-1" src="images/amburgesa.png" alt="">Menú</button>
+            <button class="hover:bg-gray-300 bg-white pt-2 pb-2 pl-3 pr-4 rounded-full font-bold text-lg flex text-stone-800"><img class="h-6 pr-2 mt-1" src="images/amburgesa.png" alt="">Menú</button>
         </section>
     </div>
 
@@ -25,7 +25,7 @@ class mainPage extends HTMLElement{
     </div>
 
     <div class="pl-4 pt-45">
-        <button class="py-4 px-12 font-semibold text-xl bg-zinc-900 text-white rounded-xl ">Descarga la app</button>
+        <button class="hover:bg-gray-800 py-4 px-12 font-semibold text-xl bg-zinc-900 text-white rounded-xl ">Descarga la app</button>
     </div>
     </div>
         
